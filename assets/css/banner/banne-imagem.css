@@ -1,0 +1,7 @@
+.banner__imagem {
+    height:calc(100vh - 72px);
+    width: 100%;
+}
+
+/*calc = faz calculos em CSS, -72px seria para a imagem desconsiderar o header e diminuir a barra de rolagem*/
+
