@@ -1,0 +1,10 @@
+/*A rem ("root em") é o tamanho de fonte do elemento-raiz do documento. Diferentemente do em , que pode ser diferente para cada elemento, o rem é constante em todo o documento. Outras unidades em desenvolvimento permitem especificar tamanhos relativos à janela do leitor.*/
+
+.cabecalho {
+    align-items: center;
+    background: #f9f9f9;
+    display: flex;     /*faz o conteúdo ficar um ao lado do outro*/
+    justify-content: space-between; /*da espaco entre os elementos*/
+    padding-left: 2rem ;
+    padding-right: 2rem;
+}
