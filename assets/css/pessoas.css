@@ -3,3 +3,21 @@
     padding-top: 3rem;
     justify-content: space-around;
 }
+
+@media screen and (min-width: 0) {
+    .pessoas {
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pessoas {
+
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .pessoas {
+        
+    }
+}
