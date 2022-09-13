@@ -8,3 +8,22 @@
     padding-left: 2rem ;
     padding-right: 2rem;
 }
+
+
+/*RESPONSIVIDADE*/
+
+/*QUANDO A TELA FOR MAIOR DO QUE 0, ESTILOS ABAIXO*/
+@media screen and (min-width: 0) {
+    .cabecalho {
+        padding: 0 1rem;
+        justify-content: center;
+    }
+}
+
+/*QUANDO A TELA FOR MAIOR DO QUE 768px, ESTILOS ABAIXO*/
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        padding: 0 5rem;
+        justify-content: space-between;
+    }
+}
